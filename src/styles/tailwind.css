@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-logo {
+  @apply w-[150px] h-[120px] rounded-[10px] flex items-center justify-center p-[5px] cursor-pointer hover:shadow-[0_0_10px_black];
+}
