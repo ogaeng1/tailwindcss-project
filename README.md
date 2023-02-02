@@ -2,4 +2,4 @@
 
 tailwindcss 를 사용한 간단한 축구 정보 관련 프로젝트 입니다.
 
-##바로가기 : https://ogaeng1.github.io/tailwindcss-project/
+바로가기 : https://ogaeng1.github.io/tailwindcss-project/
