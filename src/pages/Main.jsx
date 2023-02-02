@@ -8,7 +8,7 @@ const Main = () => {
       <div className="w-full h-screen bg-blue-500 gap-7 flex flex-col justify-center items-center md:flex-row">
         <Link to="/premier">
           <div className="main-logo">
-            <img src="/images/premier.jpg" alt="" className="rounded-[10px]" />
+            <img src="./images/premier.jpg" alt="" className="rounded-[10px]" />
           </div>
         </Link>
         <Link to="/laliga">
