@@ -3,5 +3,13 @@
 @tailwind utilities;
 
 .main-logo {
-  @apply w-[150px] h-[120px] rounded-[10px] flex items-center justify-center p-[5px] cursor-pointer hover:shadow-[0_0_10px_black];
+  @apply w-[150px] h-[120px] rounded-[10px] flex items-center justify-center p-[5px] cursor-pointer hover:shadow-[0_0_20px];
+}
+
+.standings-table {
+  @apply text-[14px] w-[80%] ml-[25%] mt-[10px] lg:w-[45%] lg:ml-[15%] lg:text-[18px];
+}
+
+.top-table {
+  @apply text-[14px] w-[80%] ml-[25%] mt-[10px] lg:w-[45%] lg:ml-[20px] lg:mr-[10px] lg:text-[18px];
 }
