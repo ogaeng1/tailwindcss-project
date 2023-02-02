@@ -8,7 +8,7 @@ import Ligue from "../pages/Ligue";
 
 const Router = () => {
   return (
-    <HashRouter basename="/">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/premier" element={<Premier />} />
