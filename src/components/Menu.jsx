@@ -5,7 +5,7 @@ const Menu = () => {
   const location = useLocation();
   return (
     <div className="bg-blue-500 w-[120px] h-screen box-border p-[30px] fixed lg:w-[15%]">
-      <Link to={process.env.PUBLIC_URL}>
+      <Link to="/">
         <div className="w-full h-12 text-[18px] flex mt-[50px] justify-center items-center p-[10px] rounded-[10px] hover:shadow-[0_0_20px] cursor-pointer xl:justify-start">
           <span className=" hidden xl:flex">🏠 홈으로</span>
           <span className="xl:hidden">홈</span>
