@@ -69,7 +69,7 @@ const Menu = () => {
           </div>
         </Link>
       ) : (
-        <Link to="bundes">
+        <Link to="/bundes">
           <div className="w-full h-12 text-[18px] flex mt-[20px] items-center p-[10px] rounded-[10px] hover:shadow-[0_0_20px] cursor-pointer">
             <img
               src="images/bundes.jpg"

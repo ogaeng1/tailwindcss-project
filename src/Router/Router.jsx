@@ -10,7 +10,7 @@ const Router = () => {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path={process.env.PUBLIC_URL} element={<Main />} />
         <Route path="/premier" element={<Premier />} />
         <Route path="/laliga" element={<Laliga />} />
         <Route path="/bundes" element={<Bundes />} />
