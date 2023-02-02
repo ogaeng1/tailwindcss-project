@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Main from "../pages/Main";
 import Premier from "../pages/Premier";
 import Laliga from "../pages/Laliga";
@@ -8,7 +8,7 @@ import Ligue from "../pages/Ligue";
 
 const Router = () => {
   return (
-    <BrowserRouter>
+    <HashRouter basename="/">
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/premier" element={<Premier />} />
@@ -17,7 +17,7 @@ const Router = () => {
         <Route path="/serie" element={<Serie />} />
         <Route path="/ligue" element={<Ligue />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
