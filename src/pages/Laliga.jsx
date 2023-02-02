@@ -10,7 +10,6 @@ const Laliga = () => {
   const [assist, setAssist] = useState([]);
   const [topRank, setTopRank] = useState(true);
   const [loading, setLoading] = useState(true);
-
   const season = new Date();
   const year = season.getFullYear();
 
