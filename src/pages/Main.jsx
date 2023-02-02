@@ -13,22 +13,22 @@ const Main = () => {
         </Link>
         <Link to="/laliga">
           <div className="main-logo">
-            <img src="/images/laliga.jpg" alt="" className="rounded-[10px]" />
+            <img src="images/laliga.jpg" alt="" className="rounded-[10px]" />
           </div>
         </Link>
         <Link to="/bundes">
           <div className="main-logo">
-            <img src="/images/bundes.jpg" alt="" className="rounded-[10px]" />
+            <img src="images/bundes.jpg" alt="" className="rounded-[10px]" />
           </div>
         </Link>
         <Link to="/serie">
           <div className="main-logo">
-            <img src="/images/serie.jpg" alt="" className="rounded-[10px]" />
+            <img src="images/serie.jpg" alt="" className="rounded-[10px]" />
           </div>
         </Link>
         <Link to="/ligue">
           <div className="main-logo">
-            <img src="/images/ligue.jpg" alt="" className="rounded-[10px]" />
+            <img src="images/ligue.jpg" alt="" className="rounded-[10px]" />
           </div>
         </Link>
       </div>

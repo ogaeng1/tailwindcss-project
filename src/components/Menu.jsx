@@ -15,7 +15,7 @@ const Menu = () => {
         <Link to="/premier-league">
           <div className="w-full h-12 text-[18px] flex mt-[50px] items-center p-[10px] rounded-[10px] cursor-pointer bg-gray-500">
             <img
-              src="/images/premier.jpg"
+              src="images/premier.jpg"
               alt="프리미어리그"
               className="w-[50px] h-10 rounded-[10px]"
             />
@@ -26,7 +26,7 @@ const Menu = () => {
         <Link to="/premier">
           <div className="w-full h-12 text-[18px] flex mt-[50px] items-center p-[10px] rounded-[10px] hover:shadow-[0_0_20px] cursor-pointer xl:w-full">
             <img
-              src="/images/premier.jpg"
+              src="images/premier.jpg"
               alt="프리미어리그"
               className="w-[50px] h-10 rounded-[10px]"
             />
@@ -38,7 +38,7 @@ const Menu = () => {
         <Link to="/laliga">
           <div className="w-full h-12 text-[18px] flex mt-[20px] items-center p-[10px] bg-gray-500 rounded-[10px] cursor-pointer">
             <img
-              src="/images/laliga.jpg"
+              src="images/laliga.jpg"
               alt="라리가"
               className="w-[50px] h-10 rounded-[10px]"
             />
@@ -49,7 +49,7 @@ const Menu = () => {
         <Link to="/laliga">
           <div className="w-full h-12 text-[18px] flex mt-[20px] items-center p-[10px] rounded-[10px] hover:shadow-[0_0_20px] cursor-pointer">
             <img
-              src="/images/laliga.jpg"
+              src="images/laliga.jpg"
               alt="라리가"
               className="w-[50px] h-10 rounded-[10px]"
             />
@@ -61,7 +61,7 @@ const Menu = () => {
         <Link to="/bundes">
           <div className="w-full h-12 text-[18px] flex mt-[20px] items-center p-[10px] rounded-[10px] bg-gray-500 cursor-pointer">
             <img
-              src="/images/bundes.jpg"
+              src="images/bundes.jpg"
               alt="분데스리가"
               className="w-[50px] h-10 rounded-[10px]"
             />
@@ -69,10 +69,10 @@ const Menu = () => {
           </div>
         </Link>
       ) : (
-        <Link to="/bundes">
+        <Link to="bundes">
           <div className="w-full h-12 text-[18px] flex mt-[20px] items-center p-[10px] rounded-[10px] hover:shadow-[0_0_20px] cursor-pointer">
             <img
-              src="/images/bundes.jpg"
+              src="images/bundes.jpg"
               alt="분데스리가"
               className="w-[50px] h-10 rounded-[10px]"
             />
@@ -84,7 +84,7 @@ const Menu = () => {
         <Link to="/serie">
           <div className="w-full h-12 text-[18px] flex mt-[20px] items-center p-[10px] rounded-[10px] bg-gray-500 cursor-pointer">
             <img
-              src="/images/serie.jpg"
+              src="images/serie.jpg"
               alt="세리에"
               className="w-[50px] h-10 rounded-[10px]"
             />
@@ -95,7 +95,7 @@ const Menu = () => {
         <Link to="/serie">
           <div className="w-full h-12 text-[18px] flex mt-[20px] items-center p-[10px] rounded-[10px] hover:shadow-[0_0_20px] cursor-pointer">
             <img
-              src="/images/serie.jpg"
+              src="images/serie.jpg"
               alt="세리에"
               className="w-[50px] h-10 rounded-[10px]"
             />
@@ -107,7 +107,7 @@ const Menu = () => {
         <Link to="/ligue">
           <div className="w-full h-12 text-[18px] flex mt-[20px] items-center p-[10px] rounded-[10px] bg-gray-500 cursor-pointer">
             <img
-              src="/images/ligue.jpg"
+              src="images/ligue.jpg"
               alt="리그1"
               className="w-[50px] h-10 rounded-[10px] mr-[15px]"
             />
@@ -118,7 +118,7 @@ const Menu = () => {
         <Link to="/ligue">
           <div className="w-full h-12 text-[18px] flex mt-[20px] items-center p-[10px] rounded-[10px] hover:shadow-[0_0_20px] cursor-pointer">
             <img
-              src="/images/ligue.jpg"
+              src="images/ligue.jpg"
               alt="리그1"
               className="w-[50px] h-10 rounded-[10px]"
             />
